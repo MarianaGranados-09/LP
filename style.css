@@ -1,0 +1,197 @@
+/* header */
+.header{
+    background-color: #1F2940;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-family: monospace;
+}
+a:hover{
+    color: orangered;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    padding-right: 3rem;
+}
+.links, .header-logo{
+    display: flex;   
+    justify-content: center;
+    gap: 16px;
+}
+.hl{
+    color: aliceblue;
+    font-family:monospace;
+    font-size: xx-large;
+    padding-left: 1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section 1 */
+.btn-1{
+    background-color: #3f3244;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: monospace;
+    width: 30%;
+}
+.btn-1:hover{
+    color: orangered;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+}
+img:hover{
+    opacity: 50%;
+}
+.section-1{
+    background-color: #1F2940;
+    padding: 10vh;
+    /* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: repeat(2, 50%); */
+}
+h1{
+    color: aliceblue;
+    font-size: 58px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    
+}
+.subtext{
+    color: aliceblue;
+    margin-bottom: 20px ;
+}
+.item-1{
+    padding-left: 2vh;
+}
+/* section 2 */
+.section-2{
+    padding: 2rem;
+    padding-bottom: 4rem;
+  
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1;
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+}
+.box{
+    /* height: 5rem; */
+    width: 150px;
+    height: 120px;
+    border: 4px solid #3882F6;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.boxes-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1;
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.box-1{
+    width: 150px;
+    height: 30px;
+    font-family:sans-serif;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section-3 */
+.section-3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17em;
+    height: 20%;
+    padding-top: 3rem;
+}
+.quote{
+    text-align: left;
+    width: 50%;
+    /* border: 4px solid black; */
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+    color: rgb(32, 30, 30);
+}
+.section-31{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+}
+.author{
+    width: 30%;
+    /* border: 4px solid black; */
+    display: flex;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+/* section-4 */
+.section-4{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    background-color: #3882F6;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    width: 80%;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.btn-footer{
+    border: none;
+    border-radius: 0.3rem;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: #3882F6;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 10px;
+}
+.btn-footer:hover{
+    color: black;
+}
