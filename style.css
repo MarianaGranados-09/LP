@@ -195,3 +195,16 @@ h1{
 .btn-footer:hover{
     color: black;
 }
+
+/* copyright section  */
+.cr-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2940;
+    padding: 2rem;
+}
+.cp{
+    color: white;
+    font-family: monospace;
+}
